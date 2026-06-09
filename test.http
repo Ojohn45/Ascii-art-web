@@ -1,0 +1,4 @@
+<form action="/submit" method="POST">
+    <input type="text" name="userText" placeholder="Type something...">
+    <buttom type="submit">Submit</button>
+</form>
