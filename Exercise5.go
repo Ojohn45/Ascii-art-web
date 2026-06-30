@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-func headerHandler(w http.ResponseWriter, r *http.Request) {
+func HeaderHandler(w http.ResponseWriter, r *http.Request) {
 	userAgent := r.Header.Get("User-Agent")
 
 	if userAgent == "" {
